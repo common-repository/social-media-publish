@@ -1,0 +1,42 @@
+/* -------------------------------------------------------------------------- */
+/*                                   Colors                                   */
+/* -------------------------------------------------------------------------- */
+
+.text-success {
+   color: #00c900;
+}
+
+.text-error {
+   color: #f02929;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   Tooltip                                  */
+/* -------------------------------------------------------------------------- */
+
+.smp-tooltip {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .smp-tooltip .smp-tooltiptext {
+   visibility: hidden;
+   /* width: 120px; */
+   top: 100%;
+   left: 50%;
+   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+   background-color: black;
+   color: #fff;
+   text-align: center;
+   border-radius: 5px;
+   padding: 3px;
+ 
+   /* Position the tooltip */
+   position: absolute;
+   z-index: 1;
+ }
+ 
+ .smp-tooltip:hover .smp-tooltiptext {
+   visibility: visible;
+ }
